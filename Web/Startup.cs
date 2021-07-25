@@ -27,9 +27,9 @@ namespace APICovidData
         {
             if (env.IsDevelopment())
             {
-                app.UseCors(option => option.AllowAnyOrigin());
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors(option => option.AllowAnyOrigin());
 
             app.UseRouting();
             app.UseEndpoints(endpoints =>
