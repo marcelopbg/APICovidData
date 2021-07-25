@@ -8,6 +8,8 @@ The project interface is contained in the repository `marcelopbg/covid-app`.
 
 ## Build the Container
 
+To build the image you need to be inside the `Web` folder 
+
 docker build -f Dockerfile .. -t covid
 
 ## Run the Container
