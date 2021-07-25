@@ -15,3 +15,8 @@ docker build -f Dockerfile .. -t covid
 docker run -d -p 4660:80 --name myapp covid 
 
 - if the port is changed, it must be updated in the json file `assets/api.json` in the frontend repository `marcelopbg/covid-app`
+
+
+## Development Environment
+
+It's also possible to run and debug the application in Visual Studio in that case the build and run steps won't be necessary, those will be executed by the Visual Studio IDE. 
