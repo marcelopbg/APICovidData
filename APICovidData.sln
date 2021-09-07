@@ -6,11 +6,11 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{E87F49E7-69B4-4D7B-AAB2-FCA70FB68E90}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationCore", "ApplicationCore\ApplicationCore.csproj", "{DBC7AB54-6CC4-4AF3-948F-C95D2A20CD02}"
-	ProjectSection(ProjectDependencies) = postProject
-		{988B497F-41F3-4430-A51C-06A377B83584} = {988B497F-41F3-4430-A51C-06A377B83584}
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{988B497F-41F3-4430-A51C-06A377B83584}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DBC7AB54-6CC4-4AF3-948F-C95D2A20CD02} = {DBC7AB54-6CC4-4AF3-948F-C95D2A20CD02}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
